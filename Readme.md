@@ -1,0 +1,1 @@
+Instructions for setting up dotfile management is available here [https://www.atlassian.com/git/tutorials/dotfiles]
