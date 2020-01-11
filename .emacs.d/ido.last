@@ -1,0 +1,105 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/dweerapurage/devs/kops-images/inventory/" . "targets/")
+ ("/Users/dweerapurage/devs/kops-images/templates/" . "packer/")
+ ("/Users/dweerapurage/devs/kops-images/" . "templates/")
+ ("/Users/dweerapurage/devs/eks-cluster/environments/dev-green/kops/" . "utils/")
+ ("/Users/dweerapurage/devs/eks-cluster/environments/prod-green/kops/" . "utils/")
+ ("/Users/dweerapurage/devs/eks-cluster/environments/prod-green/" . "kops/")
+ ("/Users/" . "dweerapurage/")
+ ("/Users/dweerapurage/devs/eks-cluster/environments/dev-green/" . "kops/")
+ ("/Users/dweerapurage/devs/eks-cluster/environments/" . "dev-green/")
+ ("/Users/dweerapurage/devs/eks-cluster/" . "environments/")
+ ("/Users/dweerapurage/devs/distance-services/deployments/inventory/" . "targets/")
+ ("/Users/dweerapurage/devs/distance-services/deployments/" . "inventory/")
+ ("/Users/dweerapurage/devs/distance-services/" . "deployments/")
+ ("/Users/dweerapurage/devs/" . "kops-images/")
+ ("/Users/dweerapurage/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/dweerapurage/devs/eks-cluster/environments/dev-green/kops/utils/"
+ "/Users/dweerapurage/.kube/"
+ "/Users/dweerapurage/.emacs.d/"
+ "/Users/dweerapurage/.aws/"
+ "/Users/dweerapurage/devs/kops-images/"
+ "/Users/dweerapurage/devs/kops-images/inventory/targets/"
+ "/Users/dweerapurage/devs/eks-cluster/environments/dev-green/kops/"
+ "/Users/dweerapurage/devs/eks-cluster/environments/prod-green/kops/utils/"
+ "/Users/dweerapurage/devs/distance-services/deployments/inventory/targets/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "developer.yaml"
+ "config"
+ "admin.yaml"
+ "init.el"
+ "dw.yaml"
+ "gitlab.yaml"
+ "gitlab-admin-sa.yml"
+ "credentials"
+ "makefile"
+ ".gitlab-ci.yml"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/dweerapurage/devs/eks-cluster/environments/dev-green/kops/utils/" (24086 19345 145128 595000) "newrelic-infrastructure-k8s-latest.yaml" "gitlabtoken" "request.sh" "pod.yaml" "grafana.sh" "admin.yaml" "gitlab-admin-sa.yml" "tmp/" "dbits-servicemonitor.yaml" "ambassador-service.yaml" "values.yaml" "green.devmare.com.1" "tekton/" "cluster.yaml" "aws-auth.yaml" "devca.crt" "kube-prometheus-grafana.yaml.bak" "test.pod.yaml" "iam.sh" "release.yaml" "mare-csg-pod.yaml" "mare-health.yaml" "prometheus-operator-mare-apps.yaml" "prometheus-operator-kube-apps.yaml" "nginx.yaml" "pv.yaml" "mare-cron-health.yaml" "crd.sh" "role-based-access-config.yaml" "fluentd-daemonset-elasticsearch-rbac.yaml" "dbits.yaml" "kube-prometheus-mare-rules.yaml" "httpbin.yaml" "gitlab-runner-values-ma.yaml" "prometheus-nginx-rules.yaml" "mare-default.yaml" "kube-prometheus-grafana.yaml" "prometheus-pvc.yaml" "gitlab.yaml" "prometheus-mare-rules.yaml" "dweerapurage.yaml" "ped.json" "alertmanager.yaml" "fluentd-daemonset-cloudwatch-rbac.yaml" "dbits-prometheus.yaml" "dw.yaml" "gitlab-runner-values.yaml" "alerts.py" "na.json" "prometheus-custom-values.yaml" "prometheus-mare-rules.yaml.bak" "../" "./")
+
+ ("/Users/dweerapurage/" (24086 16361 334748 689000) ".z.10123" ".slime/" ".glide/" ".httpie/" ".z.5850" ".viminfo" ".bash_history" "quicklisp/" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" ".fzf/" ".vscode/" ".pyenv/" "venv/" "Documents/" ".terraform.d/" ".npm/" ".z.17245" ".Trash/" ".cookiecutter_replay/" "Applications/" "Movies/" ".ssh/" ".pip/" ".cisco/" ".kube/" ".direnvrc" ".fzf.bash" "Public/" ".fzf.zsh" "Google Drive/" ".helm/" ".bash_sessions/" ".emacs.d/" ".minikube/" ".zcompdump-dweerapur-ltm-5.7.1" ".argocd/" ".lesshst" "Library/" "Desktop/" ".ipython/" ".z.15867" ".zsh_history" ".z.9659" ".hal/" ".zcompdump-dweerapur-ltm-5.3" "Pictures/" ".local/" "tmux.conf" ".sbcl_history" ".sbclrc" ".zshrc" ".bashrc" ".z" ".CFUserTextEncoding" "devs/" ".tmux.conf" ".DS_Store" ".cdk/" ".vim/" ".anyconnect" ".z.28368" ".z.28530" ".docker/" ".yarn/" "Music/" ".config/" ".packer.d/" "../" "./")
+
+ ("/Users/dweerapurage/.kube/" (24086 14946 663794 9000) "kubens/" "http-cache/" "kubectx" "eksconfig" "kind-config-opa" "ca.crt" "plugins/" "config" "cache/" "../" "./")
+
+ ("/Users/dweerapurage/devs/kops-images/" (24086 11659 891009 412000) "packages.sh" "sfdc-integration/" ".git/" ".gitlab-ci.yml" "templates/" "inventory/" ".gitignore" "Readme.md" "compiled/" "makefile" "template.json" "requirements.txt" "../" "./")
+
+ ("/Users/dweerapurage/.aws/" (24086 14797 68272 971000) "credentials" "config" "../" "./")
+
+ ("/Users/dweerapurage/devs/kops-images/templates/kubernetes/" (23972 42670 180919 100000) "main.jsonnet" "job.jsonnet" "run.sh" "configmap.jsonnet" "../" "./")
+
+ ("/Users/dweerapurage/devs/kops-images/inventory/targets/" (23827 33974 58021 459000) "prod-blue.yml" "dev-blue.yml" "dev-green.yml" "prod-green.yml" "../" "./")
+
+ ("/Users/dweerapurage/devs/kops-images/inventory/" (23825 288 334347 240000) "classes/" "targets/" "../" "./")
+
+ ("/Users/dweerapurage/devs/kops-images/templates/packer/" (23972 60622 319593 812000) "main.jsonnet" "template.jsonnet" "../" "./")
+
+ ("/Users/dweerapurage/devs/kops-images/templates/" (23826 32347 458022 492000) "packer/" "kubernetes/" "scripts/" "../" "./")
+
+ ("/Users/dweerapurage/devs/eks-cluster/environments/dev-green/kops/" (24084 50390 592240 122000) "data/" "backend.tf" "update.sh" "run.sh" "utils/" ".terraform/" "kubernetes.tf" "efs.tf" "kubernetes.tf.old" "../" "./")
+
+ ("/Users/dweerapurage/.emacs.d/" (24084 49537 265276 980000) "elpa/" "recentf" "network-security.data" "init.el" "auto-save-list/" "projectile-bookmarks.eld" "eshell/" "lisp/" "ido.last" "snippets/" "init.elc" "../" "./")
+
+ ("/Users/dweerapurage/devs/eks-cluster/environments/prod-green/kops/utils/" (24083 33421 997823 73000) "newrelic-infrastructure-k8s-latest.yaml" "pod.yaml" "admin.yaml" "tmp/" "kong-consumer-prod.yaml" "iam.sh" "input-mare-us-east-1-routing-31-1533930804.507994-451.json" "pv.yaml" "stg-default.yaml" "role-based-access-config.yaml" "kube-prometheus-mare-rules.yaml" "kong-consumer.yaml" "cluster-autoscaler.sh" "gitlab.yaml" "alertmanager.yaml" "fluentd-daemonset-cloudwatch-rbac.yaml" "kong-all-in-one-postgres.yaml" "../" "./")
+
+ ("/Users/dweerapurage/devs/dotfiles/.emacs.d/" (24083 43604 522460 683000) "elpa/" "network-security.data" "init.el" "auto-save-list/" "projectile-bookmarks.eld" "lisp/" "ido.last" "snippets/" "init.elc" "../" "./")
+
+ ("/Users/dweerapurage/devs/eks-cluster/environments/prod-green/kops/" (24041 54215 170289 474000) "data/" "backend.tf" "update.sh" "run.sh" "utils/" ".terraform/" "kubernetes.tf" "efs.tf" "../" "./")
+
+ ("/Users/dweerapurage/devs/eks-cluster/environments/prod-green/" (23800 14182 816590 382000) "kops/" "../" "./")
+
+ ("/Users/" (23782 40437 706735 681000) "dweerapurage/" "Shared/" ".localized" "../" "./")
+
+ ("/dev/" (24083 16026 0 0) "ttys007" "ttys006" "ttys005" "ttys004" "ttys003" "ttys002" "ttys001" "ttys000" "tty.Bluetooth-Incoming-Port" "cu.Bluetooth-Incoming-Port" "sentinelresc" "sentinelioctl" "uart.BLTH" "autofs_control" "autofs_homedirmounter" "autofs_notrigger" "autofs_nowait" "autofs" "io8logtemp" "io8logmt" "io8log" "xcpm" "rdisk1s4" "disk1s4" "rdisk1s3" "disk1s3" "rdisk1s2" "disk1s2" "rdisk1s1" "disk1s1" "rdisk1" "disk1" "rdisk0s2" "disk0s2" "rdisk0s1" "disk0s1" "rdisk0" "disk0" "afsc_type5" "profile" "fbt" "machtrace" "systrace" "sdt" "lockstat" "dtracehelper" "dtrace" "urandom" "random" "fsevents" "bpf3" "bpf2" "bpf1" "bpf0" "ptmx" "ptywf" "ttywf" "ptywe" "ttywe" "ptywd" "ttywd" "ptywc" "ttywc" "ptywb" "ttywb" "ptywa" "ttywa" "ptyw9" "ttyw9" "ptyw8" "ttyw8" "ptyw7" "ttyw7" "ptyw6" "ttyw6" "ptyw5" "ttyw5" "ptyw4" "ttyw4" "ptyw3" "ttyw3" "ptyw2" "ttyw2" "ptyw1" "ttyw1" "ptyw0" "ttyw0" "ptyvf" "ttyvf" "ptyve" "ttyve" "ptyvd" "ttyvd" "ptyvc" "ttyvc" "ptyvb" "ttyvb" "ptyva" "ttyva" "ptyv9" "ttyv9" "ptyv8" "ttyv8" "ptyv7" "ttyv7" "ptyv6" "ttyv6" "ptyv5" "ttyv5" "ptyv4" "ttyv4" "ptyv3" "ttyv3" "ptyv2" "ttyv2" "ptyv1" "ttyv1" "ptyv0" "ttyv0" "ptyuf" "ttyuf" "ptyue" "ttyue" "ptyud" "ttyud" "ptyuc" "ttyuc" "ptyub" "ttyub" "ptyua" "ttyua" "ptyu9" "ttyu9" "ptyu8" "ttyu8" "ptyu7" "ttyu7" "ptyu6" "ttyu6" "ptyu5" "ttyu5" "ptyu4" "ttyu4" "ptyu3" "ttyu3" "ptyu2" "ttyu2" "ptyu1" "ttyu1" "ptyu0" "ttyu0" "ptytf" "ttytf" "ptyte" "ttyte" "ptytd" "ttytd" "ptytc" "ttytc" "ptytb" "ttytb" "ptyta" "ttyta" "ptyt9" "ttyt9" "ptyt8" "ttyt8" "ptyt7" "ttyt7" "ptyt6" "ttyt6" "ptyt5" "ttyt5" "ptyt4" "ttyt4" "ptyt3" "ttyt3" "ptyt2" "ttyt2" "ptyt1" "ttyt1" "ptyt0" "ttyt0" "ptysf" "ttysf" "ptyse" "ttyse" "ptysd" "ttysd" "ptysc" "ttysc" "ptysb" "ttysb" "ptysa" "ttysa" "ptys9" "ttys9" "ptys8" "ttys8" "ptys7" "ttys7" "ptys6" "ttys6" "ptys5" "ttys5" "ptys4" "ttys4" "ptys3" "ttys3" "ptys2" "ttys2" "ptys1" "ttys1" "ptys0" "ttys0" "ptyrf" "ttyrf" "ptyre" "ttyre" "ptyrd" "ttyrd" "ptyrc" "ttyrc" "ptyrb" "ttyrb" "ptyra" "ttyra" "ptyr9" "ttyr9" "ptyr8" "ttyr8" "ptyr7" "ttyr7" "ptyr6" "ttyr6" "ptyr5" "ttyr5" "ptyr4" "ttyr4" "ptyr3" "ttyr3" "ptyr2" "ttyr2" "ptyr1" "ttyr1" "ptyr0" "ttyr0" "ptyqf" "ttyqf" "ptyqe" "ttyqe" "ptyqd" "ttyqd" "ptyqc" "ttyqc" "ptyqb" "ttyqb" "ptyqa" "ttyqa" "ptyq9" "ttyq9" "ptyq8" "ttyq8" "ptyq7" "ttyq7" "ptyq6" "ttyq6" "ptyq5" "ttyq5" "ptyq4" "ttyq4" "ptyq3" "ttyq3" "ptyq2" "ttyq2" "ptyq1" "ttyq1" "ptyq0" "ttyq0" "ptypf" "ttypf" "ptype" "ttype" "ptypd" "ttypd" "ptypc" "ttypc" "ptypb" "ttypb" "ptypa" "ttypa" "ptyp9" "ttyp9" "ptyp8" "ttyp8" "ptyp7" "ttyp7" "ptyp6" "ttyp6" "ptyp5" "ttyp5" "ptyp4" "ttyp4" "ptyp3" "ttyp3" "ptyp2" "ttyp2" "ptyp1" "ttyp1" "ptyp0" "ttyp0" "pfm" "pf" "auditpipe" "auditsessions" "stderr" "stdout" "stdin" "fd/" "oslog_stream" "oslog" "klog" "zero" "null" "tty" "console" "../" "./")
+
+ ("/Users/dweerapurage/devs/eks-cluster/environments/dev-green/" (23800 14182 804218 80000) "efs/" "base/" "kops/" "vpc-peering/" "cluster/" "../" "./")
+
+ ("/Users/dweerapurage/devs/eks-cluster/environments/" (24078 16209 760886 481000) "fabfile.py" "dev-green/" "local/" "prod-blue/" "dev-eks/" "prod-green/" "../" "./")
+
+ ("/Users/dweerapurage/devs/eks-cluster/" (24041 54184 702791 384000) "modules/" ".git/" ".gitlab-ci.yml" "scripts/" ".gitignore" "Readme.md" "environments/" "../" "./")
+
+ ("/Users/dweerapurage/devs/distance-services/deployments/inventory/targets/" (24079 40625 435849 668000) "prod-blue.yml" "stg-blue.yml" "dev-green.yml" "prod-green.yml" "stg-green.yml" "../" "./")
+
+ ("/Users/dweerapurage/devs/distance-services/deployments/inventory/" (24012 29524 702547 248000) "classes/" "targets/" "../" "./")
+
+ ("/Users/dweerapurage/devs/distance-services/deployments/" (24021 34946 254623 937000) "fabfile.py" "modules/" "dev2-blue/" "dev-green/" "dev-blue/" "dev/" "templates/" "lib/" "dev-k8s/" "inventory/" "stg-green/" "task-definitions/" "__pycache__/" "compiled/" "dev2-green/" "prod-blue/" "stg-blue/" "prod-green/" "../" "./")
+
+ ("/Users/dweerapurage/devs/distance-services/" (24012 29524 694887 698000) "deployments/" ".git/" "venv/" ".gitlab-ci.yml" ".gitignore" "Readme.md" "../" "./")
+
+ ("/Users/dweerapurage/devs/" (24083 21966 553046 738000) "debitter/" "orchestrator/" "base/" "credits/" "tmp/" "lisp-ebook/" "infrastructure/" "terralign-python/" "pelias-deployment/" "image-bakery/" "maam/" "delivery/" "pelias-docker/" "gocode/" "geocoder-tester/" ".emacs.d/" "controller/" "mato/" "s2_pip/" "mare/" "s3.xydinesh.com/" "kops-images/" "dotfiles/" "eks-cluster/" ".DS_Store" "locator-service/" "lisp/" "guide_request-builder2/" "distance-services/" "mare-ops/" "cdk/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

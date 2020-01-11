@@ -1,0 +1,7 @@
+cd
+ls
+ps aux
+cd -
+ls
+git diff
+exit
