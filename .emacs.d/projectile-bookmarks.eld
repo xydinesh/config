@@ -1,1 +1,1 @@
-("~/devs/kops-images/")
+nil

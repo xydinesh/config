@@ -66,14 +66,16 @@
 (global-set-key "\M-?" 'help-command)
 (global-set-key "\C-?" 'help-command)
 (global-set-key "\C-h" 'delete-backward-char)
-(global-set-key "\C-xt" 'transpose-line)
+;(global-set-key "\C-xt" 'transpose-line)
 (global-set-key "\C-ci" 'insert-kbd-macro)
-(global-set-key "\C-cp" 'show-paren-mode)
+;(global-set-key "\C-cp" 'show-paren-mode)
 (global-set-key "\C-h" 'delete-backward-char)
 (global-set-key "\C-x\C-m" 'execute-extended-command)
 (global-set-key "\C-c\C-m" 'execute-extended-command)
 (global-set-key "\C-x\C-k" 'kill-region)
 (global-set-key "\C-c\C-k" 'kill-region)
+(global-set-key (kbd "C-x t") 'helm-projectile-find-file)
+(global-set-key (kbd "C-x d") 'helm-find)
 
 (global-set-key  [f2] 'pep8)
 (global-set-key  [f3]  'find-alternate-file)
@@ -86,8 +88,9 @@
 
 (global-set-key  [f9]  'prev-window)
 (global-set-key  [f10]  'other-window)
-(global-set-key  [f11]  'helm-projectile-find-file)
+(global-set-key  [f11]  'helm-find)
 (global-set-key  [f12]  'set-mark-command)
+
 
 (defun line-to-top ()
   "current line to top of the window"
@@ -162,9 +165,10 @@
   ;; Replace "sbcl" with the path to your implementation
 (setq inferior-lisp-program "sbcl")
 
+;;(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+
 (require 'helm-projectile)
 (helm-projectile-on)
 (setq projectile-completion-system 'helm)
 (setq projectile-switch-project-action 'helm-projectile-find-file)
-(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
 
