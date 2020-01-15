@@ -163,10 +163,9 @@
 (setq slime-contribs '(slime-fancy))
 (load (expand-file-name "~/quicklisp/slime-helper.el"))
   ;; Replace "sbcl" with the path to your implementation
-(setq inferior-lisp-program "sbcl")
+(setq inferior-lisp-program "/usr/local/bin/sbcl")
 
 ;;(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
-
 (require 'helm-projectile)
 (helm-projectile-on)
 (setq projectile-completion-system 'helm)
