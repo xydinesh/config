@@ -39,6 +39,10 @@
 
 ;; Setup custom faces for Mac OSX
 (custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  '(default ((t (:inherit nil :extend nil :stipple nil :background "White" :foreground "Black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 160 :width normal :foundry "nil" :family "Monaco")))))
 
 ;; ------------
@@ -156,7 +160,7 @@
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
  '(package-selected-packages
-   '(yaml-mode helm-ag helm-projectile projectile fzf helm paredit slime))
+   '(jsonnet-mode terraform-mode yaml-mode helm-ag helm-projectile projectile fzf helm paredit slime))
  '(show-paren-mode t))
 
 ;; Set your lisp system and, optionally, some contribs
@@ -165,9 +169,7 @@
   ;; Replace "sbcl" with the path to your implementation
 (setq inferior-lisp-program "/usr/local/bin/sbcl")
 
-;;(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
 (require 'helm-projectile)
 (helm-projectile-on)
 (setq projectile-completion-system 'helm)
-(setq projectile-switch-project-action 'helm-projectile-find-file)
 

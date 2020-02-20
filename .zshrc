@@ -109,3 +109,14 @@ export PATH="/usr/local/opt/terraform@0.11/bin:$PATH"
 eval "$(direnv hook zsh)"
 eval "$(pyenv init -)"
 alias config='/usr/bin/git --git-dir=/Users/dweerapurage/.din/ --work-tree=/Users/dweerapurage'
+function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }
+alias k='kubectl'
+alias kg='kubectl get'
+alias kgpo='kubectl get pod'
+alias ksysgpo='kubectl --namespace=kube-system get pod'
+alias krm='kubectl delete'
+alias krmf='kubectl delete -f'
+alias kevents='kubectl get events --sort-by=.metadata.creationTimestamp'
+alias ka='kubectl apply -f'
+alias klo='kubectl logs -f'
+alias kex='kubectl exec -i -t'
