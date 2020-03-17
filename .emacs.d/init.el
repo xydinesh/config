@@ -70,9 +70,7 @@
 (global-set-key "\M-?" 'help-command)
 (global-set-key "\C-?" 'help-command)
 (global-set-key "\C-h" 'delete-backward-char)
-;(global-set-key "\C-xt" 'transpose-line)
 (global-set-key "\C-ci" 'insert-kbd-macro)
-;(global-set-key "\C-cp" 'show-paren-mode)
 (global-set-key "\C-h" 'delete-backward-char)
 (global-set-key "\C-x\C-m" 'execute-extended-command)
 (global-set-key "\C-c\C-m" 'execute-extended-command)
@@ -137,20 +135,21 @@
 ;;; From this point onwards init.el contains Dinesh Weerapurage's changes
 ;;; http://ergoemacs.org/emacs/emacs_make_modern.html
 ;;; insert matching paranthesis and brackets works with emacs24
-(electric-pair-mode 1)
+;;(electric-pair-mode 1)
 (show-paren-mode 1)
+(autopair-global-mode 1)
 (global-linum-mode 1)
 ;; Don't create backup files
 (setq make-backup-files nil) ; stop creating those backup~ files
 (setq auto-save-default nil) ; stop creating those #autosave# files
 
 ;; yasnippet
-(require 'yasnippet)
-(yas-global-mode 1)
-(setq yas-snippet-dirs
-      '("~/.emacs.d/snippets"            ;; personal snippets
-        "~/.emacs.d/yasnippet/snippets"    ;; the default collection
-        ))
+;;(require 'yasnippet)
+;;(yas-global-mode 1)
+;;(setq yas-snippet-dirs
+;;      '("~/.emacs.d/snippets"            ;; personal snippets
+;;        "~/.emacs.d/yasnippet/snippets"    ;; the default collection
+;;        ))
 
 ;; Common-Lisp mode
 (custom-set-variables
@@ -160,7 +159,7 @@
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
  '(package-selected-packages
-   '(jsonnet-mode terraform-mode yaml-mode helm-ag helm-projectile projectile fzf helm paredit slime))
+   '(autopair jsonnet-mode terraform-mode yaml-mode helm-ag helm-projectile projectile fzf helm paredit slime))
  '(show-paren-mode t))
 
 ;; Set your lisp system and, optionally, some contribs

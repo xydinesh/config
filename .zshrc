@@ -112,6 +112,7 @@ alias config='/usr/bin/git --git-dir=/Users/dweerapurage/.din/ --work-tree=/User
 function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }
 alias k='kubectl'
 alias kg='kubectl get'
+alias kdes='kubectl describe'
 alias kgpo='kubectl get pod'
 alias ksysgpo='kubectl --namespace=kube-system get pod'
 alias krm='kubectl delete'
@@ -120,3 +121,5 @@ alias kevents='kubectl get events --sort-by=.metadata.creationTimestamp'
 alias ka='kubectl apply -f'
 alias klo='kubectl logs -f'
 alias kex='kubectl exec -i -t'
+alias aws/sts='aws sts get-caller-identity'
+alias clear='[ $[$RANDOM % 2] = 0 ] && timeout 6 cbeams -o; clear || clear'
